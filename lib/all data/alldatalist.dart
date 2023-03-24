@@ -1,5 +1,5 @@
-List firstnameAll = [];
-List lastnameAll = [];
+List firstnameAll = ['nazmul'];
+List lastnameAll = ["hasan"];
 List emailAll = ['nazmul'];
 List passwordAll = ["nazmul"];
 

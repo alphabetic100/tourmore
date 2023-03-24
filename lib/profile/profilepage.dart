@@ -107,6 +107,13 @@ class _ProfileState extends State<Profile> {
                 height: 50,
                 width: 50,
                 decoration: BoxDecoration(
+                  boxShadow: const [
+                    BoxShadow(
+                      color: Colors.grey,
+                      blurRadius: 7,
+                      spreadRadius: 3,
+                    )
+                  ],
                   borderRadius: BorderRadius.circular(25),
                   color: Colors.white,
                 ),

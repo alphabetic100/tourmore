@@ -82,7 +82,7 @@ class DrawerList extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(top: 5),
+              padding: EdgeInsets.only(top: 15),
               child: Divider(
                 height: 1,
                 indent: 3,

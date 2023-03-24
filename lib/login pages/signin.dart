@@ -15,7 +15,8 @@ class _SigninPgaeState extends State<SigninPgae> {
   String password = "";
   late String emailChecker;
   late int passworadIndex;
-
+  late int currentNameIndex;
+  String space = " ";
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -150,6 +151,11 @@ class _SigninPgaeState extends State<SigninPgae> {
                     //   return element.contains(password);
                     // }).join(",");
                     passworadIndex = emailAll.indexOf(emailChecker);
+                    currentNameIndex = emailAll.indexOf(emailChecker);
+                    currentName = firstnameAll[currentNameIndex] +
+                        space +
+                        lastnameAll[currentNameIndex];
+                    currentName = currentName.replaceAll(RegExp(r"\s+"), " ");
                     if (email == emailChecker &&
                         password == passwordAll[passworadIndex]) {
                       Navigator.push(

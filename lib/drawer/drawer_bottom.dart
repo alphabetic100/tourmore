@@ -13,7 +13,7 @@ class _DrawerBottomState extends State<DrawerBottom> {
       child: Column(
         children: [
           Padding(
-            padding: const EdgeInsets.only(top: 30),
+            padding: const EdgeInsets.only(top: 25),
             child: Container(
               height: 55,
               width: double.maxFinite,
